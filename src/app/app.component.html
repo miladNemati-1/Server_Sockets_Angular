@@ -1,0 +1,128 @@
+<div>
+  <input class = "input-group input-group-sm mb-3" [(ngModel)]="number_ticket" type="text" />
+  <ul class="list-group d-flex flex-row ">
+  <div>
+      <br />
+      <br />
+
+    <li class="list-group-item">
+  
+      <input
+      [(ngModel)]="item"
+      type="radio"
+      id="html"
+      name="fav_language"
+      value="0"
+      />
+      <label for="html">melbourne</label><br />
+    </li>
+
+    
+        <li class="list-group-item">
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="1"
+    />
+    <label for="css">Port Adelaide </label><br />
+  </li>
+
+
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="2"
+    />
+  
+    <label for="css">Geelong Cats </label><br />
+  </li>
+
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="3"
+    />
+    <label for="css">Brisbane Lions </label><br />
+  </li>
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="4"
+    />
+    <label for="css">Western Bulldogs </label><br />
+  </li>
+
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="5"
+    />
+    <label for="css">Sydney Swans </label><br />
+  </li>
+
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="6"
+    />
+    <label for="css">GWS Giants </label><br />
+  </li>
+
+  <li class="list-group-item">
+
+    <input
+      [(ngModel)]="item"
+      type="radio"
+      id="css"
+      name="fav_language"
+      value="7"
+    />
+ 
+    <label for="css">Essendon </label><br />
+    <br />
+  </li>
+    <button class= "btn btn-primary" (click)="submit()">submit</button>
+    <br />
+  </div>
+
+
+  <div style="display: block; width: 50%">
+  <canvas
+    baseChart
+    [data]="pieChartData"
+    [labels]="pieChartLabels"
+    [chartType]="pieChartType"
+    [options]="pieChartOptions"
+    [plugins]="pieChartPlugins"
+    [legend]="pieChartLegend"
+  >
+  </canvas>
+  </div>
+</ul>
+</div>
+
+
+
+
